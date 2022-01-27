@@ -11,6 +11,6 @@ public class MessageController {
 	
 	@GetMapping
 	public ResponseEntity<String> getMessage(){
-		return ResponseEntity.ok("Merhaba JWT");
+		return ResponseEntity.ok("Hello JWT");
 	}
 }
